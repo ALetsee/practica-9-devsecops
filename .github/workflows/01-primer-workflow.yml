@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Mostrar mensaje
-        run: echo "GitHub Actions inició por un evento"
+        run: echo "Hola, este es mi primer workflow de DevSecOps en CyberNews"
       - name: Mostrar contexto básico
         run: echo "Evento=$GITHUB_EVENT_NAME Rama=$GITHUB_REF_NAME"
+      - name: Ver versión de Node
+        run: node --version
